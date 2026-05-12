@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #4b3f35;
+  line-height: 1.6;
+
+  background-image: linear-gradient(
+      rgba(255,255,255,0.75),
+      rgba(255,255,255,0.75)
+    ),
+    url("moleculas.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #7d8f69; /* verde militar pastel */
+  color: #fffaf7;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: #fffaf7;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #f2c6c2; /* rosa pastel */
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #FFDAB9;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #d8c3b5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #8b6f5a; /* marrom pastel */
+}
+
+h3 {
+  color: #7d8f69;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9ece8; /* rosa claro */
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  border-radius: 12px;
+  border: 1px solid #d8c3b5;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #6f7f5f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #a26769;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #6b584c;
+}
+
+input,
+textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #c9b3a5;
+  border-radius: 8px;
+  background-color: #fffdfb;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background-color: #A0522D; /* rosa queimado pastel */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #CD853F;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #7d8f69;
+  color: #fffaf7;
+  padding: 15px;
+}
