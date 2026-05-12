@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Letícia Mesquita</h1>
+
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Meu nome é Letícia Mesquita, tenho 32 anos e sou formada em Química. Atualmente, estou cursando minha segunda graduação na área de Ciência de Dados, buscando unir tecnologia e análise de dados ao universo da Química para desenvolver soluções mais inovadoras e inteligentes.
+
+        Além da vida acadêmica, compartilho meus dias com o Mushu, meu cachorro inspirado no personagem do filme Mulan, da Disney.
+
+        Nas horas livres, adoro jogar vôlei e tocar piano, atividades que equilibram minha rotina e estimulam tanto a criatividade e concentração quanto o trabalho em equipe.
+      </p>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação</h2>
+      <p>
+        <ul>
+          <li>Técnica em Química</li>
+          <li>Graduação em Química</li>
+          <li>Tecnólogo em Ciência de Dados (em andamento)</li>
+          <li>Mestrado em Engenharia Química (em andamento)</li>
+          <li>Inglês: intermediário</li>
+        </ul>
+      </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfólio</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Projeto 1</h3>
+          <p>Machine learning aplicado à classificação de misturas diesel/biodiesel em processos
+            de combustão de uma caldeira semi industrial.</p>
+          <a href="https://proceedings.science/cobeq/cobeq-2025/trabalhos/machine-learning-aplicado-a-classificacao-de-misturas-dieselbiodiesel-em-process?lang=pt-br" target="_blank">Ver projeto</a>
+        </article>
+
+        <article class="card">
+          <h3>Projeto 2</h3>
+          <p>Análise técnico-econômica de uma planta de produção de fármacos utilizando machine learning .</p>
+          <a href="#" target="_blank">Ver projeto</a>
+        </article>
+
+        <article class="card">
+          <h3>Projeto 3</h3>
+          <p>Uso de modelos de visão computacional para predição de concentração de analitos em amostras de água de reinjeção
+            na indústria offshore.</p>
+          <a href="#" target="_blank">Ver projeto</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+
+      <form id="formContato">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail" />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+
+        <p id="resultado"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - Meu Portfólio. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
